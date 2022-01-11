@@ -1,33 +1,32 @@
-#content{
-    font-family: 'Markazi Text', serif;
+#content {
+  font-family: "Markazi Text", serif;
 }
-#subh{
-    display: inline-block;
-    font-weight: normal;
-    font-size: 30px;
-    font-style: italic;
-    color: black;
+#subh {
+  display: inline-block;
+  font-weight: normal;
+  font-size: 30px;
+  font-style: italic;
+  color: black;
 }
-li{
-    list-style-type: none;
-} 
-ul{
-    padding: 0px 0px 0px 35px;
+li {
+  list-style-type: none;
+}
+ul {
+  padding: 0px 0px 0px 35px;
 }
 
-#pr1{
-    margin: 10px 40px 10px 35px;
-    font-size: 23px;
-    text-align: justify;
-
+#pr1 {
+  margin: 10px 40px 10px 35px;
+  font-size: 23px;
+  text-align: justify;
 }
-.geninfo{
-    margin: 10px auto;
-    font-size: 28px;
-    font-weight: bold;
+.geninfo {
+  margin: 10px auto;
+  font-size: 28px;
+  font-weight: bold;
 }
-.perinfo{
-    margin: 10px 40px 10px 0px;
-    font-size: 23px;
-    text-align: justify;
+.info {
+  margin: 10px 40px 10px 0px;
+  font-size: 23px;
+  text-align: justify;
 }
