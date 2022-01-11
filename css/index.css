@@ -86,7 +86,7 @@ body {
 }
 
 #game_button:hover {
-  background-color: lightgreen;
+  background-color: rgb(232, 238, 144);
   color: black;
 }
 
@@ -126,7 +126,7 @@ body {
   color: rgba(52, 118, 177);
 }
 .Link:hover {
-  color: lightgreen;
+  color: rgb(232, 238, 144);
 }
 #heading2 {
   font-weight: bold;
