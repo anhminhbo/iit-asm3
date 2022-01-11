@@ -20,7 +20,6 @@ body {
 #sidebar-container {
   height: 100%;
   flex: 1.6;
-
 }
 
 #sidebar-container a {
@@ -44,7 +43,7 @@ body {
 /* color for the sidebar header */
 #sidebar-container .sidebar-header a {
   font-size: 70px;
-  color: coral;
+  color: rgba(52, 118, 177);
   padding: 20px;
 }
 
@@ -70,7 +69,7 @@ body {
 }
 
 #sidebar-container .sidebar-item:hover {
-  background-color: coral;
+  background-color: rgba(52, 118, 177);
 }
 
 #sidebar-container .sidebar-item a {
@@ -82,7 +81,7 @@ body {
 #game_button {
   margin: 30px;
   border-color: transparent;
-  background-color: coral;
+  background-color: rgba(52, 118, 177);
   color: white;
 }
 
@@ -114,17 +113,17 @@ body {
   text-align: center;
   font-weight: bold;
   font-size: 50px;
-  color: coral;
+  color: rgba(52, 118, 177);
   margin-top: 10px;
 }
 
 .Link {
   font-weight: normal;
   cursor: pointer;
-  color: coral;
+  color: rgba(52, 118, 177);
 }
 .Link:link {
-  color: coral;
+  color: rgba(52, 118, 177);
 }
 .Link:hover {
   color: lightgreen;
@@ -132,7 +131,7 @@ body {
 #heading2 {
   font-weight: bold;
   font-size: 35px;
-  color: coral;
+  color: rgba(52, 118, 177);
   text-align: left;
 }
 .geninfo {
@@ -155,7 +154,7 @@ body {
   padding: 0px 20px 20px 0px;
 }
 #hd3 {
-  color: coral;
+  color: rgba(52, 118, 177);
   font-size: 2.5vw;
 }
 .text {
