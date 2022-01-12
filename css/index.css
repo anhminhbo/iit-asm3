@@ -86,7 +86,7 @@ body {
 }
 
 #game_button:hover {
-  background-color: rgb(232, 238, 144);
+  background-color: rgba(232, 238, 144);
   color: black;
 }
 
@@ -126,7 +126,7 @@ body {
   color: rgba(52, 118, 177);
 }
 .Link:hover {
-  color: rgb(232, 238, 144);
+  color: rgba(232, 238, 144);
 }
 #heading2 {
   font-weight: bold;
@@ -159,4 +159,13 @@ body {
 }
 .text {
   font-size: 1.7vw;
+}
+.info {
+  margin: 10px 40px 10px 0px;
+  font-size: 23px;
+  text-align: justify;
+}
+#heading3{
+  color: rgba(52, 118, 177);
+  font-size: 30px;
 }
