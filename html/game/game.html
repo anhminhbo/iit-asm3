@@ -11,9 +11,11 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Markazi+Text&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;300;500;900&family=Cinzel&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@200;300;400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../css/game.css" />
-
   <link rel="stylesheet" href="../../css/index.css" />
 </head>
 
@@ -21,7 +23,7 @@
   <!-- Sidebar -->
   <aside id="sidebar-container">
     <div class="sidebar-header">
-      <a href="../../index.html">MKDK</a>
+      <a href="../../index.html" id="team_name">MKDK</a>
     </div>
 
     <div class="sidebar-item">
@@ -54,8 +56,8 @@
   <!-- Content -->
   <!-- put the content of the document here -->
   <section id="content" >
-    <div class="game-content">
-      <div id="heading">Our game</div>
+    <div id="heading">Our game</div>
+    <div class="game-content" style="margin-top: 102px;">
       <div id="gameover">
         <div id="gameover-text">Good Job &#128526;</div>
         <div id="gameover-yourscore">Your score</div>
@@ -67,24 +69,23 @@
         <img src="../../img/game/sound-off.png" alt="sound" id="sound-img">
       </div>
       <canvas id="gameScreen" width="800" height="800"></canvas>
-      <div id="instruction">
-        <h2>Bouncing Pong</h3>
+      <div id="instruction" style="padding-right: 30px; margin-bottom: 20px;">
+        <div id="heading2">Bouncing Pong</div>
           <p> You get 1 point with each bounce, you lost when drop the ball.</p>
           <p> The game difficulty will increase by 1 if it sees that you're so PRO, maximum 6 levels.</p>
           <p> Good luck and Happy Bouncing !!</p>
           <h3>Instruction:</h3>
           <p>press &rarr; on your keyboard to make paddle go right.</p>
           <p>press &larr; on your keyboard to make paddle go left.</p>
-  
       </div>
     </div>
 
     <!-- Set up Screen -->
     <script type="text/javascript" src="../../js/screen/screen.js"></script>
 
-        <!-- Set up Features -->
-        <script type="text/javascript" src="../../js/features/score.js"></script>
-        <script type="text/javascript" src="../../js/features/sound.js"></script>
+    <!-- Set up Features -->
+    <script type="text/javascript" src="../../js/features/score.js"></script>
+    <script type="text/javascript" src="../../js/features/sound.js"></script>
 
     <!-- Set up Paddle and Ball -->
     <script type="text/javascript" src="../../js/paddle/paddle.js"></script>
