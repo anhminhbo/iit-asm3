@@ -2,8 +2,8 @@
 
 /* format */
 h1,h2,h3,h4,text,p,text2{
-    font-family: "Red Hat Display";
-    margin:0;
+    font-family: 'Playfair Display', serif;
+    margin: 0px;
 }
 h1{
     font-size: 50px;
@@ -19,7 +19,7 @@ h1{
 .text2{
     font-size: 25px;
     text-decoration: underline;
-    margin:50px;
+    margin: 50px;
     color: black;
 }
 
@@ -32,12 +32,12 @@ h1{
     margin-right: 70px;
 }
 dl{
-    margin-top: 10px;
+    margin-top: 25px;
 }
 dd{
     margin-left: 35px;
     margin-right: 40px;
-    font-size: 23px;
+    font-size: 22px;
     text-align: justify;
 }
 .list{
@@ -56,12 +56,11 @@ dd{
 .lightblue{color:rgb(40, 83, 121)}
 .normalblue{color:rgb(26, 57, 85)}
 .darkblue{color:rgb(18, 42, 63)}
-/* .lighcoral{ color:rgb(240, 128, 128) }
-.salmon{color:rgb(250, 128, 114)}
-.darksalmon{color:rgb(233, 150, 122)} */
 
-/* #dt {
-    text-decoration: bold; */
+dt {
+    text-decoration: bold;
+    margin-bottom: 20px;
+}
 
 /* testing on button and menu */
 /* 
